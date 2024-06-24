@@ -7,7 +7,7 @@ export const Toolbar = (props) => {
     return <Button 
         key={filter} 
         btnName={filter}
-        className={filter == selected ? 'selected' : ''} 
+        className={filter == selected ? 'btn_filter selected' : 'btn_filter'} 
         click={() => { onSelectFilter(filter); }
       }/>
   });
